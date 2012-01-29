@@ -20,6 +20,9 @@
 		E9D668E014D5D3B900E640E8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9D668C114D5D3B900E640E8 /* Foundation.framework */; };
 		E9D668E814D5D3B900E640E8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E9D668E614D5D3B900E640E8 /* InfoPlist.strings */; };
 		E9D668EB14D5D3B900E640E8 /* TicTacToeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E9D668EA14D5D3B900E640E8 /* TicTacToeTests.m */; };
+		E9D6690A14D5DE5100E640E8 /* 320x460-tictactoe-grid.png in Resources */ = {isa = PBXBuildFile; fileRef = E9D6690714D5DE5100E640E8 /* 320x460-tictactoe-grid.png */; };
+		E9D6690B14D5DE5100E640E8 /* o.png in Resources */ = {isa = PBXBuildFile; fileRef = E9D6690814D5DE5100E640E8 /* o.png */; };
+		E9D6690C14D5DE5100E640E8 /* x.png in Resources */ = {isa = PBXBuildFile; fileRef = E9D6690914D5DE5100E640E8 /* x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,21 +40,24 @@
 		E9D668BF14D5D3B900E640E8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		E9D668C114D5D3B900E640E8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		E9D668C314D5D3B900E640E8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		E9D668C714D5D3B900E640E8 /* TicTacToe-Info.plist */ = {isa = PBXFileReference; path = "TicTacToe-Info.plist"; sourceTree = "<group>"; };
+		E9D668C714D5D3B900E640E8 /* TicTacToe-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TicTacToe-Info.plist"; sourceTree = "<group>"; };
 		E9D668C914D5D3B900E640E8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E9D668CB14D5D3B900E640E8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		E9D668CD14D5D3B900E640E8 /* TicTacToe-Prefix.pch */ = {isa = PBXFileReference; path = "TicTacToe-Prefix.pch"; sourceTree = "<group>"; };
-		E9D668CE14D5D3B900E640E8 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		E9D668CD14D5D3B900E640E8 /* TicTacToe-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TicTacToe-Prefix.pch"; sourceTree = "<group>"; };
+		E9D668CE14D5D3B900E640E8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E9D668CF14D5D3B900E640E8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		E9D668D114D5D3B900E640E8 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		E9D668D114D5D3B900E640E8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		E9D668D214D5D3B900E640E8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		E9D668D514D5D3B900E640E8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
 		E9D668DC14D5D3B900E640E8 /* TicTacToeTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TicTacToeTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9D668DD14D5D3B900E640E8 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		E9D668E514D5D3B900E640E8 /* TicTacToeTests-Info.plist */ = {isa = PBXFileReference; path = "TicTacToeTests-Info.plist"; sourceTree = "<group>"; };
+		E9D668E514D5D3B900E640E8 /* TicTacToeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TicTacToeTests-Info.plist"; sourceTree = "<group>"; };
 		E9D668E714D5D3B900E640E8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		E9D668E914D5D3B900E640E8 /* TicTacToeTests.h */ = {isa = PBXFileReference; path = TicTacToeTests.h; sourceTree = "<group>"; };
+		E9D668E914D5D3B900E640E8 /* TicTacToeTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TicTacToeTests.h; sourceTree = "<group>"; };
 		E9D668EA14D5D3B900E640E8 /* TicTacToeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TicTacToeTests.m; sourceTree = "<group>"; };
+		E9D6690714D5DE5100E640E8 /* 320x460-tictactoe-grid.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "320x460-tictactoe-grid.png"; sourceTree = "<group>"; };
+		E9D6690814D5DE5100E640E8 /* o.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = o.png; sourceTree = "<group>"; };
+		E9D6690914D5DE5100E640E8 /* x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = x.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +117,7 @@
 		E9D668C514D5D3B900E640E8 /* TicTacToe */ = {
 			isa = PBXGroup;
 			children = (
+				E9D668FF14D5DDD200E640E8 /* Media */,
 				E9D668CE14D5D3B900E640E8 /* AppDelegate.h */,
 				E9D668CF14D5D3B900E640E8 /* AppDelegate.m */,
 				E9D668D114D5D3B900E640E8 /* ViewController.h */,
@@ -149,6 +156,16 @@
 				E9D668E614D5D3B900E640E8 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E9D668FF14D5DDD200E640E8 /* Media */ = {
+			isa = PBXGroup;
+			children = (
+				E9D6690714D5DE5100E640E8 /* 320x460-tictactoe-grid.png */,
+				E9D6690814D5DE5100E640E8 /* o.png */,
+				E9D6690914D5DE5100E640E8 /* x.png */,
+			);
+			path = Media;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -223,6 +240,9 @@
 			files = (
 				E9D668CA14D5D3B900E640E8 /* InfoPlist.strings in Resources */,
 				E9D668D614D5D3B900E640E8 /* ViewController.xib in Resources */,
+				E9D6690A14D5DE5100E640E8 /* 320x460-tictactoe-grid.png in Resources */,
+				E9D6690B14D5DE5100E640E8 /* o.png in Resources */,
+				E9D6690C14D5DE5100E640E8 /* x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -429,6 +449,7 @@
 				E9D668F014D5D3B900E640E8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E9D668F114D5D3B900E640E8 /* Build configuration list for PBXNativeTarget "TicTacToeTests" */ = {
 			isa = XCConfigurationList;
@@ -437,6 +458,7 @@
 				E9D668F314D5D3B900E640E8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
