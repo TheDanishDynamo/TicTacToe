@@ -240,7 +240,7 @@
 						<string key="NSFrame">{{213, 212}, {89, 89}}</string>
 						<reference key="NSSuperview" ref="181751291"/>
 						<reference key="NSWindow"/>
-						<reference key="NSNextKeyView" ref="834167669"/>
+						<reference key="NSNextKeyView" ref="737586419"/>
 						<string key="NSReuseIdentifierKey">_NS:225</string>
 						<bool key="IBUIOpaque">NO</bool>
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
@@ -255,7 +255,7 @@
 						<reference key="IBUIFontDescription" ref="782938723"/>
 						<reference key="IBUIFont" ref="818901971"/>
 					</object>
-					<object class="IBUIButton" id="834167669">
+					<object class="IBUIButton" id="737586419">
 						<reference key="NSNextResponder" ref="181751291"/>
 						<int key="NSvFlags">292</int>
 						<string key="NSFrame">{{10, 398}, {298, 42}}</string>
@@ -338,6 +338,62 @@
 						<reference key="destination" ref="215174666"/>
 					</object>
 					<int key="connectionID">65</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBCocoaTouchOutletConnection" key="connection">
+						<string key="label">r1c3Button</string>
+						<reference key="source" ref="372490531"/>
+						<reference key="destination" ref="519648833"/>
+					</object>
+					<int key="connectionID">66</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBCocoaTouchOutletConnection" key="connection">
+						<string key="label">r2c2Button</string>
+						<reference key="source" ref="372490531"/>
+						<reference key="destination" ref="859147218"/>
+					</object>
+					<int key="connectionID">68</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBCocoaTouchOutletConnection" key="connection">
+						<string key="label">r2c3Button</string>
+						<reference key="source" ref="372490531"/>
+						<reference key="destination" ref="481304265"/>
+					</object>
+					<int key="connectionID">69</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBCocoaTouchOutletConnection" key="connection">
+						<string key="label">r3c2Button</string>
+						<reference key="source" ref="372490531"/>
+						<reference key="destination" ref="593488301"/>
+					</object>
+					<int key="connectionID">71</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBCocoaTouchOutletConnection" key="connection">
+						<string key="label">r3c3Button</string>
+						<reference key="source" ref="372490531"/>
+						<reference key="destination" ref="998049300"/>
+					</object>
+					<int key="connectionID">72</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBCocoaTouchOutletConnection" key="connection">
+						<string key="label">r3c1Button</string>
+						<reference key="source" ref="372490531"/>
+						<reference key="destination" ref="720071942"/>
+					</object>
+					<int key="connectionID">73</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBCocoaTouchOutletConnection" key="connection">
+						<string key="label">r2c1Button</string>
+						<reference key="source" ref="372490531"/>
+						<reference key="destination" ref="93497183"/>
+					</object>
+					<int key="connectionID">74</int>
 				</object>
 				<object class="IBConnectionRecord">
 					<object class="IBCocoaTouchEventConnection" key="connection">
@@ -423,7 +479,7 @@
 				<object class="IBConnectionRecord">
 					<object class="IBCocoaTouchEventConnection" key="connection">
 						<string key="label">pushNewGame:</string>
-						<reference key="source" ref="834167669"/>
+						<reference key="source" ref="737586419"/>
 						<reference key="destination" ref="372490531"/>
 						<int key="IBEventType">7</int>
 					</object>
@@ -463,7 +519,7 @@
 							<reference ref="93497183"/>
 							<reference ref="593488301"/>
 							<reference ref="998049300"/>
-							<reference ref="834167669"/>
+							<reference ref="737586419"/>
 						</array>
 						<reference key="parent" ref="0"/>
 					</object>
@@ -528,7 +584,7 @@
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">51</int>
-						<reference key="object" ref="834167669"/>
+						<reference key="object" ref="737586419"/>
 						<reference key="parent" ref="181751291"/>
 					</object>
 				</array>
@@ -565,7 +621,7 @@
 			<nil key="activeLocalization"/>
 			<dictionary class="NSMutableDictionary" key="localizations"/>
 			<nil key="sourceID"/>
-			<int key="maxID">65</int>
+			<int key="maxID">74</int>
 		</object>
 		<object class="IBClassDescriber" key="IBDocument.Classes">
 			<array class="NSMutableArray" key="referencedPartialClassDescriptions">
@@ -589,6 +645,13 @@
 					<dictionary class="NSMutableDictionary" key="outlets">
 						<string key="r1c1Button">UIButton</string>
 						<string key="r1c2Button">UIButton</string>
+						<string key="r1c3Button">UIButton</string>
+						<string key="r2c1Button">UIButton</string>
+						<string key="r2c2Button">UIButton</string>
+						<string key="r2c3Button">UIButton</string>
+						<string key="r3c1Button">UIButton</string>
+						<string key="r3c2Button">UIButton</string>
+						<string key="r3c3Button">UIButton</string>
 					</dictionary>
 					<dictionary class="NSMutableDictionary" key="toOneOutletInfosByName">
 						<object class="IBToOneOutletInfo" key="r1c1Button">
@@ -597,6 +660,34 @@
 						</object>
 						<object class="IBToOneOutletInfo" key="r1c2Button">
 							<string key="name">r1c2Button</string>
+							<string key="candidateClassName">UIButton</string>
+						</object>
+						<object class="IBToOneOutletInfo" key="r1c3Button">
+							<string key="name">r1c3Button</string>
+							<string key="candidateClassName">UIButton</string>
+						</object>
+						<object class="IBToOneOutletInfo" key="r2c1Button">
+							<string key="name">r2c1Button</string>
+							<string key="candidateClassName">UIButton</string>
+						</object>
+						<object class="IBToOneOutletInfo" key="r2c2Button">
+							<string key="name">r2c2Button</string>
+							<string key="candidateClassName">UIButton</string>
+						</object>
+						<object class="IBToOneOutletInfo" key="r2c3Button">
+							<string key="name">r2c3Button</string>
+							<string key="candidateClassName">UIButton</string>
+						</object>
+						<object class="IBToOneOutletInfo" key="r3c1Button">
+							<string key="name">r3c1Button</string>
+							<string key="candidateClassName">UIButton</string>
+						</object>
+						<object class="IBToOneOutletInfo" key="r3c2Button">
+							<string key="name">r3c2Button</string>
+							<string key="candidateClassName">UIButton</string>
+						</object>
+						<object class="IBToOneOutletInfo" key="r3c3Button">
+							<string key="name">r3c3Button</string>
 							<string key="candidateClassName">UIButton</string>
 						</object>
 					</dictionary>

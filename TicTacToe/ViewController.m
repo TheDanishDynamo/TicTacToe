@@ -27,6 +27,15 @@
 {
     r1c1Button = nil;
     r1c2Button = nil;
+    r1c3Button = nil;
+    r2c1Button = nil;
+    r2c2Button = nil;
+    r2c3Button = nil;
+    r2c1Button = nil;
+    r3c2Button = nil;
+    r3c3Button = nil;
+    r3c1Button = nil;
+    r2c1Button = nil;
     [super viewDidUnload];
     // Release any retained subviews of the main view.
     // e.g. self.myOutlet = nil;
@@ -75,6 +84,13 @@
 - (IBAction)pushNewGame:(id)sender {
     _player = 1;
     [r1c1Button setBackgroundImage:nil forState:UIControlStateNormal];   
-    [r1c2Button setBackgroundImage:nil forState:UIControlStateNormal];     
+    [r1c2Button setBackgroundImage:nil forState:UIControlStateNormal];   
+    [r1c3Button setBackgroundImage:nil forState:UIControlStateNormal]; 
+    [r2c1Button setBackgroundImage:nil forState:UIControlStateNormal]; 
+    [r2c2Button setBackgroundImage:nil forState:UIControlStateNormal]; 
+    [r2c3Button setBackgroundImage:nil forState:UIControlStateNormal]; 
+    [r3c1Button setBackgroundImage:nil forState:UIControlStateNormal]; 
+    [r3c2Button setBackgroundImage:nil forState:UIControlStateNormal]; 
+    [r3c3Button setBackgroundImage:nil forState:UIControlStateNormal]; 
 }
 @end
