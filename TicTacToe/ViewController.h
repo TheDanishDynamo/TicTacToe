@@ -10,8 +10,10 @@
 
 @interface ViewController : UIViewController
 {
+    __weak IBOutlet UIButton *r1c1Button;
+    __weak IBOutlet UIButton *r1c2Button;
     int _player;
 }
-@property (nonatomic) int player;
+- (IBAction)pushNewGame:(id)sender;
 - (IBAction)pushButton:(id)sender;
 @end

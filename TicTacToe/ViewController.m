@@ -9,7 +9,6 @@
 #import "ViewController.h"
 
 @implementation ViewController
-@synthesize player=_player;
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
@@ -21,11 +20,13 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    _player = 1;   
 }
 
 - (void)viewDidUnload
 {
+    r1c1Button = nil;
+    r1c2Button = nil;
     [super viewDidUnload];
     // Release any retained subviews of the main view.
     // e.g. self.myOutlet = nil;
@@ -58,6 +59,10 @@
 }
 
 - (IBAction)pushButton:(id)sender {
+    if ([sender currentBackgroundImage]!=nil)
+    {
+        return;
+    }
     if(_player==1){
         [sender setBackgroundImage:[UIImage imageNamed:@"x.png"] forState:UIControlStateNormal];
         _player = 2;
@@ -66,5 +71,10 @@
         [sender setBackgroundImage:[UIImage imageNamed:@"o.png"] forState:UIControlStateNormal];
         _player = 1;
     }
+}
+- (IBAction)pushNewGame:(id)sender {
+    _player = 1;
+    [r1c1Button setBackgroundImage:nil forState:UIControlStateNormal];   
+    [r1c2Button setBackgroundImage:nil forState:UIControlStateNormal];     
 }
 @end
