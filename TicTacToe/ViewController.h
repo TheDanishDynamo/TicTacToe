@@ -9,5 +9,9 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
-
+{
+    int _player;
+}
+@property (nonatomic) int player;
+- (IBAction)pushButton:(id)sender;
 @end

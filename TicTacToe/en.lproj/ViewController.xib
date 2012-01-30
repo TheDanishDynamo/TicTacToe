@@ -476,13 +476,7 @@
 				<string key="-2.CustomClassName">UIResponder</string>
 				<string key="-2.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 				<string key="30.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-				<array key="30.IBUserGuides">
-					<object class="IBUserGuide">
-						<reference key="view" ref="181751291"/>
-						<double key="location">103</double>
-						<int key="affinity">1</int>
-					</object>
-				</array>
+				<array class="NSMutableArray" key="30.IBUserGuides"/>
 				<string key="31.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 				<real value="2" key="31.IBUIButtonInspectorSelectedEdgeInsetMetadataKey"/>
 				<string key="32.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>

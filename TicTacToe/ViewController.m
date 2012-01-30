@@ -9,7 +9,7 @@
 #import "ViewController.h"
 
 @implementation ViewController
-
+@synthesize player=_player;
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
@@ -57,4 +57,14 @@
     return (interfaceOrientation != UIInterfaceOrientationPortraitUpsideDown);
 }
 
+- (IBAction)pushButton:(id)sender {
+    if(_player==1){
+        [sender setBackgroundImage:[UIImage imageNamed:@"x.png"] forState:UIControlStateNormal];
+        _player = 2;
+    }
+    else {
+        [sender setBackgroundImage:[UIImage imageNamed:@"o.png"] forState:UIControlStateNormal];
+        _player = 1;
+    }
+}
 @end
