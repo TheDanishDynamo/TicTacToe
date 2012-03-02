@@ -20,7 +20,8 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    _player = 1;   
+    _player = 1; 
+    [newGameButton setHidden:NO];
 }
 
 - (void)viewDidUnload
@@ -36,6 +37,8 @@
     r3c3Button = nil;
     r3c1Button = nil;
     r2c1Button = nil;
+    newGameButton = nil;
+    infoLabel = nil;
     [super viewDidUnload];
     // Release any retained subviews of the main view.
     // e.g. self.myOutlet = nil;
@@ -64,7 +67,7 @@
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
 {
     // Return YES for supported orientations
-    return (interfaceOrientation != UIInterfaceOrientationPortraitUpsideDown);
+    return (interfaceOrientation == UIInterfaceOrientationPortrait);
 }
 
 - (IBAction)pushButton:(id)sender {
@@ -73,13 +76,15 @@
         return;
     }
     if(_player==1){
-        [sender setBackgroundImage:[UIImage imageNamed:@"x.png"] forState:UIControlStateNormal];
+        [sender setBackgroundImage:[UIImage imageNamed:@"ipad-x.png"] forState:UIControlStateNormal];
         _player = 2;
     }
     else {
-        [sender setBackgroundImage:[UIImage imageNamed:@"o.png"] forState:UIControlStateNormal];
+        [sender setBackgroundImage:[UIImage imageNamed:@"ipad-o.png"] forState:UIControlStateNormal];
         _player = 1;
     }
+    [newGameButton setHidden:NO];
+    [infoLabel setHidden:YES];
 }
 - (IBAction)pushNewGame:(id)sender {
     _player = 1;
@@ -92,5 +97,7 @@
     [r3c1Button setBackgroundImage:nil forState:UIControlStateNormal]; 
     [r3c2Button setBackgroundImage:nil forState:UIControlStateNormal]; 
     [r3c3Button setBackgroundImage:nil forState:UIControlStateNormal]; 
+    [newGameButton setHidden:YES];
+    [infoLabel setHidden:NO];
 }
 @end

@@ -7,18 +7,21 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <QuartzCore/QuartzCore.h>
 
 @interface ViewController : UIViewController
 {
-    __weak IBOutlet UIButton *r1c1Button;
-    __weak IBOutlet UIButton *r1c2Button;
-    __weak IBOutlet UIButton *r1c3Button;
-    __weak IBOutlet UIButton *r2c1Button;
-    __weak IBOutlet UIButton *r2c2Button;
-    __weak IBOutlet UIButton *r2c3Button;
-    __weak IBOutlet UIButton *r3c1Button;
-    __weak IBOutlet UIButton *r3c2Button;
-    __weak IBOutlet UIButton *r3c3Button;
+    IBOutlet UIButton *r1c1Button;
+    IBOutlet UIButton *r1c2Button;
+    IBOutlet UIButton *r1c3Button;
+    IBOutlet UIButton *r2c1Button;
+    IBOutlet UIButton *r2c2Button;
+    IBOutlet UIButton *r2c3Button;
+    IBOutlet UIButton *r3c1Button;
+    IBOutlet UIButton *r3c2Button;
+    IBOutlet UIButton *r3c3Button;
+    IBOutlet UIButton *newGameButton;
+    IBOutlet UIImageView *infoLabel;
     int _player;
 }
 - (IBAction)pushNewGame:(id)sender;
