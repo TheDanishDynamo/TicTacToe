@@ -7,13 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E924FBE214FF3F8E00D793F5 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E924FBE114FF3F8E00D793F5 /* QuartzCore.framework */; };
-		E924FBE414FF468B00D793F5 /* ppad-tictactoe-info.png in Resources */ = {isa = PBXBuildFile; fileRef = E924FBE314FF468B00D793F5 /* ppad-tictactoe-info.png */; };
+		E960CE2A15169BC300602D82 /* TicTacToeGame.m in Sources */ = {isa = PBXBuildFile; fileRef = E960CE2915169BC300602D82 /* TicTacToeGame.m */; };
+		E960CE2B15169BC300602D82 /* TicTacToeGame.m in Sources */ = {isa = PBXBuildFile; fileRef = E960CE2915169BC300602D82 /* TicTacToeGame.m */; };
+		E960CE2D1516C5F900602D82 /* ipad-new-game-button.png in Resources */ = {isa = PBXBuildFile; fileRef = E960CE2C1516C5F900602D82 /* ipad-new-game-button.png */; };
+		E960CE2E1516C5F900602D82 /* ipad-new-game-button.png in Resources */ = {isa = PBXBuildFile; fileRef = E960CE2C1516C5F900602D82 /* ipad-new-game-button.png */; };
+		E960CE311516C97200602D82 /* o-win-message.png in Resources */ = {isa = PBXBuildFile; fileRef = E960CE2F1516C97100602D82 /* o-win-message.png */; };
+		E960CE321516C97200602D82 /* x-win-message.png in Resources */ = {isa = PBXBuildFile; fileRef = E960CE301516C97100602D82 /* x-win-message.png */; };
+		E960CE341516CAFC00602D82 /* o-turn.png in Resources */ = {isa = PBXBuildFile; fileRef = E960CE331516CAFC00602D82 /* o-turn.png */; };
+		E960CE361516CB1A00602D82 /* x-turn.png in Resources */ = {isa = PBXBuildFile; fileRef = E960CE351516CB1A00602D82 /* x-turn.png */; };
+		E960CE391516EC5A00602D82 /* 320x460-tictactoe-grid.png in Resources */ = {isa = PBXBuildFile; fileRef = E960CE381516EC5A00602D82 /* 320x460-tictactoe-grid.png */; };
+		E960CE431516EFAD00602D82 /* ipad-tictactoe-tie.png in Resources */ = {isa = PBXBuildFile; fileRef = E960CE421516EFAD00602D82 /* ipad-tictactoe-tie.png */; };
 		E964E09914FC9F8E00976FF5 /* ipad-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = E964E09814FC9F8E00976FF5 /* ipad-icon.png */; };
 		E964E09B14FC9F9D00976FF5 /* iphone-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = E964E09A14FC9F9D00976FF5 /* iphone-icon.png */; };
-		E9932A4D14F99655001F7D0F /* 320x460-tictactoe-grid.png in Resources */ = {isa = PBXBuildFile; fileRef = E9932A4A14F99655001F7D0F /* 320x460-tictactoe-grid.png */; };
-		E9932A4E14F99655001F7D0F /* o.png in Resources */ = {isa = PBXBuildFile; fileRef = E9932A4B14F99655001F7D0F /* o.png */; };
-		E9932A4F14F99655001F7D0F /* x.png in Resources */ = {isa = PBXBuildFile; fileRef = E9932A4C14F99655001F7D0F /* x.png */; };
 		E9AB883714F74238006E6695 /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = E9AB883514F74238006E6695 /* ViewController_iPad.xib */; };
 		E9AB883814F74238006E6695 /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = E9AB883614F74238006E6695 /* ViewController_iPhone.xib */; };
 		E9D668C014D5D3B900E640E8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9D668BF14D5D3B900E640E8 /* UIKit.framework */; };
@@ -27,11 +32,11 @@
 		E9D668DF14D5D3B900E640E8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9D668BF14D5D3B900E640E8 /* UIKit.framework */; };
 		E9D668E014D5D3B900E640E8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9D668C114D5D3B900E640E8 /* Foundation.framework */; };
 		E9D668E814D5D3B900E640E8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E9D668E614D5D3B900E640E8 /* InfoPlist.strings */; };
-		E9D668EB14D5D3B900E640E8 /* TicTacToeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E9D668EA14D5D3B900E640E8 /* TicTacToeTests.m */; };
+		E9DB2D3415164FE0007F1D15 /* TicTacToeGame.m in Sources */ = {isa = PBXBuildFile; fileRef = E9DB2D3315164FE0007F1D15 /* TicTacToeGame.m */; };
+		E9DB2D3715165C22007F1D15 /* TicTacToeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E9DB2D3615165C21007F1D15 /* TicTacToeTests.m */; };
 		E9DFF2CC14FC8D3600456F6C /* ipad-o.png in Resources */ = {isa = PBXBuildFile; fileRef = E9DFF2CA14FC8D3600456F6C /* ipad-o.png */; };
 		E9DFF2CD14FC8D3600456F6C /* ipad-x.png in Resources */ = {isa = PBXBuildFile; fileRef = E9DFF2CB14FC8D3600456F6C /* ipad-x.png */; };
 		E9F3A16F14FC865E000EE70A /* ipad-grid-square.png in Resources */ = {isa = PBXBuildFile; fileRef = E9F3A16C14FC865E000EE70A /* ipad-grid-square.png */; };
-		E9F3A17414FC869E000EE70A /* ipad-new-game-button.png in Resources */ = {isa = PBXBuildFile; fileRef = E9F3A17314FC869E000EE70A /* ipad-new-game-button.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,13 +50,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		E924FBE114FF3F8E00D793F5 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
-		E924FBE314FF468B00D793F5 /* ppad-tictactoe-info.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "ppad-tictactoe-info.png"; path = "../../PhotoShop/images/ppad-tictactoe-info.png"; sourceTree = "<group>"; };
+		E960CE2815169BC300602D82 /* TicTacToeGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TicTacToeGame.h; sourceTree = "<group>"; };
+		E960CE2915169BC300602D82 /* TicTacToeGame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TicTacToeGame.m; sourceTree = "<group>"; };
+		E960CE2C1516C5F900602D82 /* ipad-new-game-button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ipad-new-game-button.png"; sourceTree = "<group>"; };
+		E960CE2F1516C97100602D82 /* o-win-message.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "o-win-message.png"; sourceTree = "<group>"; };
+		E960CE301516C97100602D82 /* x-win-message.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "x-win-message.png"; sourceTree = "<group>"; };
+		E960CE331516CAFC00602D82 /* o-turn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "o-turn.png"; sourceTree = "<group>"; };
+		E960CE351516CB1A00602D82 /* x-turn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "x-turn.png"; sourceTree = "<group>"; };
+		E960CE381516EC5A00602D82 /* 320x460-tictactoe-grid.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "320x460-tictactoe-grid.png"; sourceTree = "<group>"; };
+		E960CE421516EFAD00602D82 /* ipad-tictactoe-tie.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ipad-tictactoe-tie.png"; sourceTree = "<group>"; };
 		E964E09814FC9F8E00976FF5 /* ipad-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "ipad-icon.png"; path = "../ipad-icon.png"; sourceTree = "<group>"; };
 		E964E09A14FC9F9D00976FF5 /* iphone-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "iphone-icon.png"; path = "../iphone-icon.png"; sourceTree = "<group>"; };
-		E9932A4A14F99655001F7D0F /* 320x460-tictactoe-grid.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "320x460-tictactoe-grid.png"; path = "Media/320x460-tictactoe-grid.png"; sourceTree = "<group>"; };
-		E9932A4B14F99655001F7D0F /* o.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = o.png; path = Media/o.png; sourceTree = "<group>"; };
-		E9932A4C14F99655001F7D0F /* x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = x.png; path = Media/x.png; sourceTree = "<group>"; };
 		E9AB883514F74238006E6695 /* ViewController_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController_iPad.xib; sourceTree = "<group>"; };
 		E9AB883614F74238006E6695 /* ViewController_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController_iPhone.xib; sourceTree = "<group>"; };
 		E9D668BB14D5D3B900E640E8 /* TicTacToe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TicTacToe.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -70,12 +79,13 @@
 		E9D668DD14D5D3B900E640E8 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		E9D668E514D5D3B900E640E8 /* TicTacToeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TicTacToeTests-Info.plist"; sourceTree = "<group>"; };
 		E9D668E714D5D3B900E640E8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		E9D668E914D5D3B900E640E8 /* TicTacToeTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TicTacToeTests.h; sourceTree = "<group>"; };
-		E9D668EA14D5D3B900E640E8 /* TicTacToeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TicTacToeTests.m; sourceTree = "<group>"; };
+		E9D668E914D5D3B900E640E8 /* TicTacToeTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = TicTacToeTests.h; path = TicTacToeTests/TicTacToeTests.h; sourceTree = SOURCE_ROOT; };
+		E9DB2D3215164FE0007F1D15 /* TicTacToeGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TicTacToeGame.h; sourceTree = "<group>"; };
+		E9DB2D3315164FE0007F1D15 /* TicTacToeGame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TicTacToeGame.m; path = TicTacToeTests/TicTacToeGame.m; sourceTree = SOURCE_ROOT; };
+		E9DB2D3615165C21007F1D15 /* TicTacToeTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TicTacToeTests.m; path = TicTacToeTests/TicTacToeTests.m; sourceTree = SOURCE_ROOT; };
 		E9DFF2CA14FC8D3600456F6C /* ipad-o.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ipad-o.png"; sourceTree = "<group>"; };
 		E9DFF2CB14FC8D3600456F6C /* ipad-x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ipad-x.png"; sourceTree = "<group>"; };
 		E9F3A16C14FC865E000EE70A /* ipad-grid-square.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ipad-grid-square.png"; sourceTree = "<group>"; };
-		E9F3A17314FC869E000EE70A /* ipad-new-game-button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ipad-new-game-button.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,7 +93,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E924FBE214FF3F8E00D793F5 /* QuartzCore.framework in Frameworks */,
 				E9D668C014D5D3B900E640E8 /* UIKit.framework in Frameworks */,
 				E9D668C214D5D3B900E640E8 /* Foundation.framework in Frameworks */,
 				E9D668C414D5D3B900E640E8 /* CoreGraphics.framework in Frameworks */,
@@ -103,34 +112,36 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E960CE371516EC0D00602D82 /* IPhone */ = {
+			isa = PBXGroup;
+			children = (
+				E960CE381516EC5A00602D82 /* 320x460-tictactoe-grid.png */,
+			);
+			name = IPhone;
+			sourceTree = "<group>";
+		};
 		E9932A4714F995F1001F7D0F /* Media */ = {
 			isa = PBXGroup;
 			children = (
+				E960CE371516EC0D00602D82 /* IPhone */,
 				E9932A4914F9960D001F7D0F /* IPad */,
-				E9932A4814F995FA001F7D0F /* IPhone */,
 			);
 			name = Media;
-			sourceTree = "<group>";
-		};
-		E9932A4814F995FA001F7D0F /* IPhone */ = {
-			isa = PBXGroup;
-			children = (
-				E9932A4A14F99655001F7D0F /* 320x460-tictactoe-grid.png */,
-				E9932A4B14F99655001F7D0F /* o.png */,
-				E9932A4C14F99655001F7D0F /* x.png */,
-			);
-			name = IPhone;
 			sourceTree = "<group>";
 		};
 		E9932A4914F9960D001F7D0F /* IPad */ = {
 			isa = PBXGroup;
 			children = (
+				E960CE421516EFAD00602D82 /* ipad-tictactoe-tie.png */,
+				E960CE351516CB1A00602D82 /* x-turn.png */,
+				E960CE331516CAFC00602D82 /* o-turn.png */,
+				E960CE2F1516C97100602D82 /* o-win-message.png */,
+				E960CE301516C97100602D82 /* x-win-message.png */,
+				E960CE2C1516C5F900602D82 /* ipad-new-game-button.png */,
 				E964E09A14FC9F9D00976FF5 /* iphone-icon.png */,
 				E964E09814FC9F8E00976FF5 /* ipad-icon.png */,
-				E924FBE314FF468B00D793F5 /* ppad-tictactoe-info.png */,
 				E9DFF2CA14FC8D3600456F6C /* ipad-o.png */,
 				E9DFF2CB14FC8D3600456F6C /* ipad-x.png */,
-				E9F3A17314FC869E000EE70A /* ipad-new-game-button.png */,
 				E9F3A16C14FC865E000EE70A /* ipad-grid-square.png */,
 			);
 			name = IPad;
@@ -158,7 +169,6 @@
 		E9D668BE14D5D3B900E640E8 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				E924FBE114FF3F8E00D793F5 /* QuartzCore.framework */,
 				E9D668BF14D5D3B900E640E8 /* UIKit.framework */,
 				E9D668C114D5D3B900E640E8 /* Foundation.framework */,
 				E9D668C314D5D3B900E640E8 /* CoreGraphics.framework */,
@@ -177,6 +187,8 @@
 				E9D668CF14D5D3B900E640E8 /* AppDelegate.m */,
 				E9D668D114D5D3B900E640E8 /* ViewController.h */,
 				E9D668D214D5D3B900E640E8 /* ViewController.m */,
+				E960CE2815169BC300602D82 /* TicTacToeGame.h */,
+				E960CE2915169BC300602D82 /* TicTacToeGame.m */,
 				E9D668C614D5D3B900E640E8 /* Supporting Files */,
 			);
 			path = TicTacToe;
@@ -197,7 +209,9 @@
 			isa = PBXGroup;
 			children = (
 				E9D668E914D5D3B900E640E8 /* TicTacToeTests.h */,
-				E9D668EA14D5D3B900E640E8 /* TicTacToeTests.m */,
+				E9DB2D3615165C21007F1D15 /* TicTacToeTests.m */,
+				E9DB2D3215164FE0007F1D15 /* TicTacToeGame.h */,
+				E9DB2D3315164FE0007F1D15 /* TicTacToeGame.m */,
 				E9D668E414D5D3B900E640E8 /* Supporting Files */,
 			);
 			path = TicTacToeTests;
@@ -285,16 +299,18 @@
 				E9D668CA14D5D3B900E640E8 /* InfoPlist.strings in Resources */,
 				E9AB883714F74238006E6695 /* ViewController_iPad.xib in Resources */,
 				E9AB883814F74238006E6695 /* ViewController_iPhone.xib in Resources */,
-				E9932A4D14F99655001F7D0F /* 320x460-tictactoe-grid.png in Resources */,
-				E9932A4E14F99655001F7D0F /* o.png in Resources */,
-				E9932A4F14F99655001F7D0F /* x.png in Resources */,
 				E9F3A16F14FC865E000EE70A /* ipad-grid-square.png in Resources */,
-				E9F3A17414FC869E000EE70A /* ipad-new-game-button.png in Resources */,
 				E9DFF2CC14FC8D3600456F6C /* ipad-o.png in Resources */,
 				E9DFF2CD14FC8D3600456F6C /* ipad-x.png in Resources */,
 				E964E09914FC9F8E00976FF5 /* ipad-icon.png in Resources */,
 				E964E09B14FC9F9D00976FF5 /* iphone-icon.png in Resources */,
-				E924FBE414FF468B00D793F5 /* ppad-tictactoe-info.png in Resources */,
+				E960CE2D1516C5F900602D82 /* ipad-new-game-button.png in Resources */,
+				E960CE311516C97200602D82 /* o-win-message.png in Resources */,
+				E960CE321516C97200602D82 /* x-win-message.png in Resources */,
+				E960CE341516CAFC00602D82 /* o-turn.png in Resources */,
+				E960CE361516CB1A00602D82 /* x-turn.png in Resources */,
+				E960CE391516EC5A00602D82 /* 320x460-tictactoe-grid.png in Resources */,
+				E960CE431516EFAD00602D82 /* ipad-tictactoe-tie.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -303,6 +319,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E9D668E814D5D3B900E640E8 /* InfoPlist.strings in Resources */,
+				E960CE2E1516C5F900602D82 /* ipad-new-game-button.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -332,6 +349,7 @@
 				E9D668CC14D5D3B900E640E8 /* main.m in Sources */,
 				E9D668D014D5D3B900E640E8 /* AppDelegate.m in Sources */,
 				E9D668D314D5D3B900E640E8 /* ViewController.m in Sources */,
+				E960CE2A15169BC300602D82 /* TicTacToeGame.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,7 +357,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E9D668EB14D5D3B900E640E8 /* TicTacToeTests.m in Sources */,
+				E9DB2D3415164FE0007F1D15 /* TicTacToeGame.m in Sources */,
+				E9DB2D3715165C22007F1D15 /* TicTacToeTests.m in Sources */,
+				E960CE2B15169BC300602D82 /* TicTacToeGame.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

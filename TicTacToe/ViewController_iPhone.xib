@@ -39,13 +39,13 @@
 					<object class="IBUIImageView" id="612319884">
 						<reference key="NSNextResponder" ref="774585933"/>
 						<int key="NSvFlags">256</int>
-						<string key="NSFrameSize">{320, 460}</string>
+						<string key="NSFrameSize">{320, 531}</string>
 						<reference key="NSSuperview" ref="774585933"/>
 						<reference key="NSWindow"/>
 						<reference key="NSNextKeyView" ref="501609201"/>
 						<bool key="IBUIOpaque">NO</bool>
 						<bool key="IBUIClipsSubviews">YES</bool>
-						<int key="IBUIContentMode">4</int>
+						<int key="IBUIContentMode">5</int>
 						<bool key="IBUIMultipleTouchEnabled">YES</bool>
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 						<object class="NSCustomResource" key="IBUIImage">
@@ -240,7 +240,7 @@
 						<string key="NSFrame">{{217, 216}, {89, 89}}</string>
 						<reference key="NSSuperview" ref="774585933"/>
 						<reference key="NSWindow"/>
-						<reference key="NSNextKeyView" ref="698851124"/>
+						<reference key="NSNextKeyView" ref="352615696"/>
 						<string key="NSReuseIdentifierKey">_NS:225</string>
 						<bool key="IBUIOpaque">NO</bool>
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
@@ -258,7 +258,7 @@
 					<object class="IBUIButton" id="352615696">
 						<reference key="NSNextResponder" ref="774585933"/>
 						<int key="NSvFlags">292</int>
-						<string key="NSFrame">{{91, 390}, {139, 42}}</string>
+						<string key="NSFrame">{{14, 372}, {293, 75}}</string>
 						<reference key="NSSuperview" ref="774585933"/>
 						<reference key="NSWindow"/>
 						<reference key="NSNextKeyView"/>
@@ -280,21 +280,6 @@
 						</object>
 						<reference key="IBUIFontDescription" ref="382956367"/>
 						<reference key="IBUIFont" ref="1034942421"/>
-					</object>
-					<object class="IBUIImageView" id="698851124">
-						<reference key="NSNextResponder" ref="774585933"/>
-						<int key="NSvFlags">292</int>
-						<string key="NSFrame">{{13, 355}, {293, 85}}</string>
-						<reference key="NSSuperview" ref="774585933"/>
-						<reference key="NSWindow"/>
-						<reference key="NSNextKeyView" ref="352615696"/>
-						<string key="NSReuseIdentifierKey">_NS:567</string>
-						<bool key="IBUIUserInteractionEnabled">NO</bool>
-						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
-						<object class="NSCustomResource" key="IBUIImage">
-							<string key="NSClassName">NSImage</string>
-							<string key="NSResourceName">ppad-tictactoe-info.png</string>
-						</object>
 					</object>
 				</array>
 				<string key="NSFrame">{{0, 20}, {320, 460}}</string>
@@ -402,14 +387,6 @@
 						<reference key="destination" ref="774585933"/>
 					</object>
 					<int key="connectionID">7</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBCocoaTouchOutletConnection" key="connection">
-						<string key="label">infoLabel</string>
-						<reference key="source" ref="372490531"/>
-						<reference key="destination" ref="698851124"/>
-					</object>
-					<int key="connectionID">41</int>
 				</object>
 				<object class="IBConnectionRecord">
 					<object class="IBCocoaTouchEventConnection" key="connection">
@@ -530,13 +507,12 @@
 							<reference ref="922452075"/>
 							<reference ref="643157362"/>
 							<reference ref="889366889"/>
-							<reference ref="659992168"/>
 							<reference ref="484851863"/>
 							<reference ref="159548444"/>
+							<reference ref="501609201"/>
+							<reference ref="659992168"/>
 							<reference ref="612319884"/>
 							<reference ref="352615696"/>
-							<reference ref="501609201"/>
-							<reference ref="698851124"/>
 						</array>
 						<reference key="parent" ref="0"/>
 					</object>
@@ -605,12 +581,6 @@
 						<reference key="parent" ref="774585933"/>
 						<string key="objectName">r2c1</string>
 					</object>
-					<object class="IBObjectRecord">
-						<int key="objectID">40</int>
-						<reference key="object" ref="698851124"/>
-						<reference key="parent" ref="774585933"/>
-						<string key="objectName">infoLabel</string>
-					</object>
 				</array>
 			</object>
 			<dictionary class="NSMutableDictionary" key="flattenedProperties">
@@ -639,7 +609,6 @@
 				<string key="18.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 				<string key="19.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 				<real value="2" key="19.IBUIButtonInspectorSelectedEdgeInsetMetadataKey"/>
-				<string key="40.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 				<string key="6.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 				<string key="9.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 				<real value="2" key="9.IBUIButtonInspectorSelectedEdgeInsetMetadataKey"/>
@@ -741,8 +710,7 @@
 		<int key="IBDocument.defaultPropertyAccessControl">3</int>
 		<dictionary class="NSMutableDictionary" key="IBDocument.LastKnownImageSizes">
 			<string key="320x460-tictactoe-grid.png">{320, 460}</string>
-			<string key="ipad-new-game-button.png">{236, 72}</string>
-			<string key="ppad-tictactoe-info.png">{716, 192}</string>
+			<string key="ipad-new-game-button.png">{720, 204}</string>
 		</dictionary>
 		<string key="IBCocoaTouchPluginVersion">933</string>
 	</data>

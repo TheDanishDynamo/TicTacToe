@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import <QuartzCore/QuartzCore.h>
+#import "TicTacToeGame.h"
 
 @interface ViewController : UIViewController
 {
@@ -22,7 +22,7 @@
     IBOutlet UIButton *r3c3Button;
     IBOutlet UIButton *newGameButton;
     IBOutlet UIImageView *infoLabel;
-    int _player;
+    TicTacToeGame *ticTacToeGame;
 }
 - (IBAction)pushNewGame:(id)sender;
 - (IBAction)pushButton:(id)sender;

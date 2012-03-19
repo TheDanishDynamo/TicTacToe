@@ -20,8 +20,18 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    _player = 1; 
     [newGameButton setHidden:NO];
+    [newGameButton setTag:1000];
+    [r1c1Button setTag:R1C1];
+    [r1c2Button setTag:R1C2];
+    [r1c3Button setTag:R1C3];
+    [r2c1Button setTag:R2C1];
+    [r2c2Button setTag:R2C2];
+    [r2c3Button setTag:R2C3];
+    [r3c1Button setTag:R3C1];
+    [r3c2Button setTag:R3C2];
+    [r3c3Button setTag:R3C3];
+    ticTacToeGame = [[TicTacToeGame alloc] init];    
 }
 
 - (void)viewDidUnload
@@ -71,33 +81,65 @@
 }
 
 - (IBAction)pushButton:(id)sender {
-    if ([sender currentBackgroundImage]!=nil)
+    if ([sender currentImage]!=nil)
     {
         return;
     }
-    if(_player==1){
-        [sender setBackgroundImage:[UIImage imageNamed:@"ipad-x.png"] forState:UIControlStateNormal];
-        _player = 2;
+    if([ticTacToeGame player] == 1){
+        [sender setImage:[UIImage imageNamed:@"ipad-x.png"] forState:UIControlStateNormal];
+        [newGameButton setImage:[UIImage imageNamed:@"o-turn.png"] forState:UIControlStateNormal];
     }
     else {
-        [sender setBackgroundImage:[UIImage imageNamed:@"ipad-o.png"] forState:UIControlStateNormal];
-        _player = 1;
+        [sender setImage:[UIImage imageNamed:@"ipad-o.png"] forState:UIControlStateNormal];
+        [newGameButton setImage:[UIImage imageNamed:@"x-turn.png"] forState:UIControlStateNormal];
     }
     [newGameButton setHidden:NO];
-    [infoLabel setHidden:YES];
+    int result = [ticTacToeGame placeMark: [sender tag]];
+    if (result==GAME_FINISHED){
+        
+        if([ticTacToeGame player] == 1){
+              [newGameButton setImage:[UIImage imageNamed:@"x-win-message.png"] forState:UIControlStateNormal];
+        } else if([ticTacToeGame player] == 1) {
+              [newGameButton setImage:[UIImage imageNamed:@"o-win-message.png"] forState:UIControlStateNormal];
+        } else {
+            [newGameButton setImage:[UIImage imageNamed:@"ipad-tictactoe-tie.png"] forState:UIControlStateNormal];
+        } 
+      
+        // Higlight the row that won by disabling the non winning moves, and enabling the winning
+        for (UIControl *button in [[self view] subviews]) {
+            if([button tag] >= 0 && [button tag] < 9) { 
+                [button setEnabled:NO];
+            }
+        }
+        
+        for (NSNumber *tag in [ticTacToeGame winnerCombination]) {
+            for (UIControl *button in [[self view] subviews]) {
+                if([button tag] >= 0 && [button tag] < 9) { 
+                    if([button tag]==[tag integerValue]) {
+                        [button setEnabled:YES];
+                    }
+                }
+            }
+        }
+     }
 }
 - (IBAction)pushNewGame:(id)sender {
-    _player = 1;
-    [r1c1Button setBackgroundImage:nil forState:UIControlStateNormal];   
-    [r1c2Button setBackgroundImage:nil forState:UIControlStateNormal];   
-    [r1c3Button setBackgroundImage:nil forState:UIControlStateNormal]; 
-    [r2c1Button setBackgroundImage:nil forState:UIControlStateNormal]; 
-    [r2c2Button setBackgroundImage:nil forState:UIControlStateNormal]; 
-    [r2c3Button setBackgroundImage:nil forState:UIControlStateNormal]; 
-    [r3c1Button setBackgroundImage:nil forState:UIControlStateNormal]; 
-    [r3c2Button setBackgroundImage:nil forState:UIControlStateNormal]; 
-    [r3c3Button setBackgroundImage:nil forState:UIControlStateNormal]; 
-    [newGameButton setHidden:YES];
-    [infoLabel setHidden:NO];
+    
+    [r1c1Button setImage:nil forState:UIControlStateNormal];   
+    [r1c2Button setImage:nil forState:UIControlStateNormal];   
+    [r1c3Button setImage:nil forState:UIControlStateNormal]; 
+    [r2c1Button setImage:nil forState:UIControlStateNormal]; 
+    [r2c2Button setImage:nil forState:UIControlStateNormal]; 
+    [r2c3Button setImage:nil forState:UIControlStateNormal]; 
+    [r3c1Button setImage:nil forState:UIControlStateNormal]; 
+    [r3c2Button setImage:nil forState:UIControlStateNormal]; 
+    [r3c3Button setImage:nil forState:UIControlStateNormal]; 
+    [newGameButton setImage:[UIImage imageNamed:@"ipad-new-game-button.png"] forState:UIControlStateNormal];
+    ticTacToeGame = [ticTacToeGame init];
+    for (UIControl *button in [[self view] subviews]) {
+        if([button tag] >= 0 && [button tag] < 9) { 
+            [button setEnabled:YES];
+        }
+    }    
 }
 @end
