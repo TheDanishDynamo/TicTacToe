@@ -23,6 +23,11 @@
     IBOutlet UIButton *newGameButton;
     IBOutlet UIImageView *infoLabel;
     TicTacToeGame *ticTacToeGame;
+    // Winner swipe
+    CGPoint lastPoint;
+    UIImageView *drawImage;
+    BOOL mouseSwiped;	
+    int mouseMoved;
 }
 - (IBAction)pushNewGame:(id)sender;
 - (IBAction)pushButton:(id)sender;

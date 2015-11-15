@@ -12,6 +12,7 @@ static int const GAME_NOT_STARTED = 0;
 static int const GAME_IN_PROGRESS = 1;
 static int const GAME_FINISHED = 2;
 static int const GAME_ILLEGAL_MOVE = 3;
+static int const PLAYER_TIE = 4;
 static int const R1C1 = 0;
 static int const R1C2 = 1;
 static int const R1C3 = 2;

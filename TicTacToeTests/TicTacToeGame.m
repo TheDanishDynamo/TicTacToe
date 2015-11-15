@@ -46,7 +46,7 @@
     if(_turns == 9) {
         if([self isWinner:_player]==NO){ 
             // Draw
-            _player = -1;
+            _player = PLAYER_TIE;
         }
         return GAME_FINISHED;
     }
