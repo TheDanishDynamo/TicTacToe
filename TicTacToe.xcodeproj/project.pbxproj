@@ -19,6 +19,7 @@
 		E960CE431516EFAD00602D82 /* ipad-tictactoe-tie.png in Resources */ = {isa = PBXBuildFile; fileRef = E960CE421516EFAD00602D82 /* ipad-tictactoe-tie.png */; };
 		E964E09914FC9F8E00976FF5 /* ipad-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = E964E09814FC9F8E00976FF5 /* ipad-icon.png */; };
 		E964E09B14FC9F9D00976FF5 /* iphone-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = E964E09A14FC9F9D00976FF5 /* iphone-icon.png */; };
+		E981901C152D1FFF0046CD48 /* win-swipe.png in Resources */ = {isa = PBXBuildFile; fileRef = E981901B152D1FFF0046CD48 /* win-swipe.png */; };
 		E9AB883714F74238006E6695 /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = E9AB883514F74238006E6695 /* ViewController_iPad.xib */; };
 		E9AB883814F74238006E6695 /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = E9AB883614F74238006E6695 /* ViewController_iPhone.xib */; };
 		E9D668C014D5D3B900E640E8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9D668BF14D5D3B900E640E8 /* UIKit.framework */; };
@@ -61,6 +62,7 @@
 		E960CE421516EFAD00602D82 /* ipad-tictactoe-tie.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ipad-tictactoe-tie.png"; sourceTree = "<group>"; };
 		E964E09814FC9F8E00976FF5 /* ipad-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "ipad-icon.png"; path = "../ipad-icon.png"; sourceTree = "<group>"; };
 		E964E09A14FC9F9D00976FF5 /* iphone-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "iphone-icon.png"; path = "../iphone-icon.png"; sourceTree = "<group>"; };
+		E981901B152D1FFF0046CD48 /* win-swipe.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "win-swipe.png"; sourceTree = "<group>"; };
 		E9AB883514F74238006E6695 /* ViewController_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController_iPad.xib; sourceTree = "<group>"; };
 		E9AB883614F74238006E6695 /* ViewController_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController_iPhone.xib; sourceTree = "<group>"; };
 		E9D668BB14D5D3B900E640E8 /* TicTacToe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TicTacToe.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -123,6 +125,7 @@
 		E9932A4714F995F1001F7D0F /* Media */ = {
 			isa = PBXGroup;
 			children = (
+				E981901B152D1FFF0046CD48 /* win-swipe.png */,
 				E960CE371516EC0D00602D82 /* IPhone */,
 				E9932A4914F9960D001F7D0F /* IPad */,
 			);
@@ -263,7 +266,7 @@
 			name = TicTacToeTests;
 			productName = TicTacToeTests;
 			productReference = E9D668DC14D5D3B900E640E8 /* TicTacToeTests.octest */;
-			productType = "com.apple.product-type.bundle";
+			productType = "com.apple.product-type.bundle.ocunit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -271,6 +274,7 @@
 		E9D668B214D5D3B900E640E8 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastTestingUpgradeCheck = 0710;
 				LastUpgradeCheck = 0420;
 			};
 			buildConfigurationList = E9D668B514D5D3B900E640E8 /* Build configuration list for PBXProject "TicTacToe" */;
@@ -311,6 +315,7 @@
 				E960CE361516CB1A00602D82 /* x-turn.png in Resources */,
 				E960CE391516EC5A00602D82 /* 320x460-tictactoe-grid.png in Resources */,
 				E960CE431516EFAD00602D82 /* ipad-tictactoe-tie.png in Resources */,
+				E981901C152D1FFF0046CD48 /* win-swipe.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
