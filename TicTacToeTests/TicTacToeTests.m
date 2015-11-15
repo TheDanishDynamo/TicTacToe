@@ -6,24 +6,10 @@
 //  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
 //
 
-#import "TicTacToeTests.h"
+//#import "TicTacToeTests.h"
 #import "TicTacToeGame.h"
 
 @implementation TicTacToeTests
-
-- (void)setUp
-{
-    [super setUp];
-    
-    // Set-up code here.
-}
-
-- (void)tearDown
-{
-    // Tear-down code here.
-    
-    [super tearDown];
-}
 
 - (void)testSimulateGamePlayer1Winner
 {
